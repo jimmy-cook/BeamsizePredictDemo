@@ -1,21 +1,17 @@
-# Beam Size Prediction  🤓
-This repository contains code and resources for predicting the optimal beam size for structural design using machine learning models. The model is designed to assist structural engineers in quickly determining the preliminary dimensions of beams based on a set of input architectural and structural parameters.
+# Beam Size Prediction Using Artificial Neural Networks (ANN) 🤓
+This project leverages Artificial Neural Networks (ANN) to predict the optimal beam size for structural engineering applications. The goal is to automate the process of determining preliminary beam dimensions based on various input features using machine learning techniques.
 
-### Features ☘
-Predicts the beam size (e.g., cross-sectional dimensions) based on input features such as concrete grade, steel grade, moment, and strain values.
-Utilizes advanced machine learning techniques for regression to provide accurate predictions.
-Easily integrates with engineering software like ETABS for structural analysis and design.
-Can be customized to adapt to various standards and regional design codes.
-Installation
-Prerequisites
-Python 3.7+
-Required Python libraries (see requirements.txt)
-Optionally, you can set up a virtual environment for the project.
-Steps
-Clone the repository:
+### Project Overview
+The Beam Size Prediction project utilizes ANN models to predict the size of beams (such as cross-sectional dimensions) based on the input parameters. This helps structural engineers in early-stage design by providing quick, data-driven estimates of beam dimensions.
 
-### bash
-Copy code
-git clone https://github.com/jimmy-cook/BeamsizePredictDemo.git
-Navigate to the project directory:
-
+### Features
+Beam Size Prediction: Predicts beam dimensions (e.g., b/dRatio, c/dRatio, etc.) based on features such as:
+Concrete Grade (ConcreteGrade)
+Rebar Grade (RebarGrade)
+Applied Moment (Moment)
+Steel Strain (SteelStrain)
+c/d Ratio (c/dRatio)
+b/d Ratio (b/dRatio)
+Rebar Ratio (RebarRatio)
+ANN Model: Utilizes a neural network to model the nonlinear relationships between input features and beam dimensions.
+Flexible Input: The model can be trained with different datasets and adapted to various design standards.
