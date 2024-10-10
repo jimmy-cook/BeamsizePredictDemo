@@ -2,5 +2,5 @@ tensorflow
 numpy
 seaborn
 scikit-learn
-pickle
 streamlit
+matplotlib
