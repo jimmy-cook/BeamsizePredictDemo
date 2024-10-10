@@ -1,7 +1,0 @@
-tensorflow
-numpy
-pandas
-seaborn 
-streamlit
-ipykernel
-keras
